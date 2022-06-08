@@ -1,0 +1,84 @@
+:root{
+    scroll-behavior: smooth;
+    --primary-theme-color1 :#16181dbf;
+    --primary-theme-color:#110361;
+    --secondary-theme-color:#141416;
+    --text-color: #fff;
+    --secondary-shadow-color:#21242c80;
+    --shadow-collor: #8888;
+    --button-color-active:#fff;
+    --button-text-color :#000;
+    --padding-section:2em 0;
+    --padding-container:0 2rem;
+    --primary-highlight:#61dafb;
+    --primary-shadow-color:#21242c80;
+    --secondary-highlight:#ffd700;
+    --padding-section :4rem 0;
+    --padding-container: 0 2rem;
+    --border-radius: 0.5rem;
+    --all-transitions: all 0.25s;
+    --max-width-container:1024px;
+
+}
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    min-height: 100vh;
+    max-width: var(--max-width-container);
+    background-image: url(https://www.themoviedb.org/t/p/original/xFb2VglYrfqY01SBDmjhIqoY5GW.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}   
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.header__title{
+    padding: 0.5rem;
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: var(--secondary-highlight);
+    color: rgb(4, 5, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header__welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-theme-color1);
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 1rem;
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 1024px;
+     
+}
+.figure-container{
+    
+    border: black 1px solid;
+    max-width: 350px;
+    background-color: white;
+     
+    
+}
+.figure__image-containe{
+    display: flex;
+}
+.figure__image{
+    width: 100%;
+
+}
