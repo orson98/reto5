@@ -1,0 +1,51 @@
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.125);
+  }
+}
+:root {
+  scroll-behavior: smooth;
+  --primary-theme-color:#20322a;
+  --secondary-theme-color:#282c34;
+  --text-color: #fff;
+  --secondary-shadow-color:#21242c80;
+  --shadow-collor: #8888;
+  --button-color-active:#fff;
+  --button-text-color:#000;
+  --padding-section:2em 0;
+  --padding-container:0 2rem;
+  --primary-highlight:#61dafb;
+  --primary-shadow-color:#21242c80;
+  --secondary-highlight:#ffd700;
+  --padding-section:4rem 0;
+  --padding-container: 0 2rem;
+  --border-radius: 0.5rem;
+  --all-transitions: all 0.25s;
+  --max-width-container:1024px;
+}
+
+.header {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem;
+}
+.header__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 256px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+  animation: zoom 2s ease-in-out 0s infinite alternate;
+}
+.header__image {
+  width: 100%;
+}
+
+/*# sourceMappingURL=header.css.map */

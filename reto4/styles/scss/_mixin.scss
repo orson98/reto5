@@ -1,0 +1,13 @@
+@mixin d-flex-fd-ai-jc-g($flex-direction:column ,$alain-items: center,$justify-content:center ,$gap:1rem){
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $alain-items;
+    justify-content: $justify-content;
+    gap: $gap;
+}
+
+@mixin header {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
